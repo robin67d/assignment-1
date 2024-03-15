@@ -1,6 +1,6 @@
-.container{
-    display: flex;
-    justify-content: center;
+.container {
+  display: flex;
+  justify-content: center;
 }
 .header {
   width: 1320px;
@@ -11,7 +11,7 @@
     url("../resources/banner.png");
 }
 .header-title {
-  padding-top: 177px;
+  padding-top: 140px;
   color: #fff;
   text-align: center;
   font-family: Merriweather;
@@ -20,11 +20,11 @@
   font-weight: 400;
   line-height: normal;
 }
-.header-content{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 120px;
+.header-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 80px;
 }
 .content {
   width: 632px;
@@ -35,4 +35,36 @@
   font-style: normal;
   font-weight: 900;
   line-height: 95px;
+}
+/* discount section */
+.off {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.deals {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.category {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.img {
+  display: flex;
+  justify-content: center;
 }
