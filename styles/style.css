@@ -176,13 +176,13 @@
 
 /* container-3 */
 
-.container-3{
+.container-3 {
   padding-top: 50px;
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.part-1{
+.part-1 {
   padding-top: 50px;
   padding-right: 80px;
 }
@@ -231,10 +231,10 @@
   height: 370.844px;
   flex-shrink: 0;
   border-radius: 364.844px;
-  background: url("../resources/group5.png") lightgray -91.279px 0px / 150.038%
-    100% no-repeat;
+  background: url("../resources/group5.png") lightgray -91.279px 0px / 150.038% 100%
+    no-repeat;
 }
-.part-3{
+.part-3 {
   padding-top: 60px;
 }
 .part-3-title {
@@ -258,4 +258,46 @@
   width: 140px;
   height: 140px;
   flex-shrink: 0;
+}
+
+/* container 4 */
+.portfolio {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.best {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.awesome {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.awesome-description {
+  padding-bottom: 40px;
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.cart-1,
+.cart-2 {
+  display: flex;
+  gap: 24px;
+}
+.cart-1 {
+  padding-bottom: 24px;
 }
